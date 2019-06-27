@@ -1,2 +1,9 @@
 Task 6
 -----
+commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168
+Author: Junegunn Choi <junegunn.c@gmail.com>
+Date:   Thu Jan 30 15:41:44 2014 +0900
+
+    Add --no-mouse option to replace FZF_MOUSE_ENABLED
+I knew we needed to use the git log command because we used it previously when looking at the commit log as instructed to do so before the tasks. I also used the git log cheatsheet URL:https://devhints.io/git-log and put the command git log --grep=--no-mouse
+Task 8-I used git diff which I found on https://stackoverflow.com/questions/4456532/how-can-i-see-what-has-changed-in-a-file-before-committing-to-git and put the file name it showed the change
