@@ -9,8 +9,5 @@ This is a mistake
 This is also a mistake
 =======
 >>>>>>> parent of d0efebf... README.txt changes
-<<<<<<< HEAD
 This is a mistake
 This is also a mistake
-=======
->>>>>>> parent of 131f395... Changes README.txt
