@@ -17,3 +17,4 @@ This is also a mistake
 =======
 >>>>>>> parent of b325fed... This is a mistake
 this is a mistake
+This is also a mistake
