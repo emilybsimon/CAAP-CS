@@ -9,3 +9,4 @@ This is a mistake
 This is also a mistake
 =======
 >>>>>>> parent of d0efebf... README.txt changes
+This is a mistake
