@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>externalStyle.html</title>
+ <link rel = "index.html"
+   type = "text/css"
+   href = "index.html" />
+ </head>
+ <body>
+/* index.html */
+body {
+    background-color: darksalmon
+}
+ </body>
+</html>
