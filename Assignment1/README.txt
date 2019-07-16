@@ -1,0 +1,3 @@
+# In order to run my program, run python3 followed by the file name. 
+# I am using python 3.7.4 to generate these programs.
+# My program contains multiple different calculators that can be used for distinct purposes. My hello.py program prompts responses from the user and generates a story from given answers. The converter.py function converts temperature from Fahrenheit to Celsius. The unit conversion converts km to miles. The slope.py sums a given set of numbers. The fibonacci.py gives the nth number of the sequence and the cash.py function gives the exact number of coins necessary when giving back change. 
