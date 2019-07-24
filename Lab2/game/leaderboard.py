@@ -8,7 +8,7 @@ class Leaderboard(object):
 
 	def __init__(self):
 		for i in range(self.size):
-			self.board.append(Score(str("player "+str(i)), 0))
+			self.board.append(Score(str("player "+str(i)), 999))
 
 	# prints the leaderboard
 	def print_board(self):
@@ -23,13 +23,13 @@ class Leaderboard(object):
 	def update(self, score):
 		i=0
 		for status in self.board:
-			if (score.get_score() >= status.get_score()):
+			if (score.get_score() < status.get_score()):
 				if i == self.size-1:
 					return
 				else:
-					temp = range[i:size-1]
+					temp = self.board[i:self.size-1]
 					self.board[i] = score
-					self.board[i+1:size] = temp
+					self.board[i+1:self.size] = temp
 					break
 			i +=1
 # inserts the score in the given position (assuming it's better or equal to the one in the given rank)
@@ -37,4 +37,7 @@ class Leaderboard(object):
 	# def insert(self, score, i):
 	
 sample = Leaderboard()
+sample.print_board()
+test = Score("test-player", 9999)
+sample.update(test)
 sample.print_board()

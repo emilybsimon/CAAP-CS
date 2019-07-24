@@ -6,10 +6,10 @@ except ImportError:
 
 config = {
 	'description': 'Game for lab1',
-	'author': 'YOUR NAME',
-	'url': 'YOUR GIT REPO URL',
-	'download_url': 'YOUR GIT REPO URL',
-	'author_email': 'CNET@uchicago.edu',
+	'author': 'EMILY SIMON',
+	'url': 'https://github.com/emilybsimon/CAAP-CS.git',
+	'download_url': 'https://github.com/emilybsimon/CAAP-CS.git',
+	'author_email': 'emilysimon@uchicago.edu',
 	'version': '0.1',
 	'install_requires': ['nose', 'pyinstaller'],
 	'packages': ['game'],
