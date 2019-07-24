@@ -3,22 +3,38 @@ from scores import Score
 
 # leaderboard keeps track of top ten highest ranking players
 class Leaderboard(object):
-	size = raise ValueError ('todo')
-	board = raise ValueError ('todo')
+	size = 5
+	board = []
 
 	def __init__(self):
 		for i in range(self.size):
-			self.board.append(raise ValueError ('todo'))
+			self.board.append(Score(str("player "+str(i)), 0))
 
 	# prints the leaderboard
 	def print_board(self):
-		raise ValueError ('todo')
+		print("Leaderboard:")
+		print()
+		for entry in self.board:
+			player = entry.get_name()
+			score = entry.get_score()
+			print(player+ ": ", score)
 
 	# checks if given score should be in the leaderboard
 	def update(self, score):
-		raise ValueError ('todo')
-
-	# inserts the score in the given position (assuming it's better or equal to the one in the given rank)
+		i=0
+		for status in self.board:
+			if (score.get_score() >= status.get_score()):
+				if i == self.size-1:
+					return
+				else:
+					temp = range[i:size-1]
+					self.board[i] = score
+					self.board[i+1:size] = temp
+					break
+			i +=1
+# inserts the score in the given position (assuming it's better or equal to the one in the given rank)
 	# moving everything below down a rank
-	def insert(self, score, i):
-		raise ValueError ('todo')
+	# def insert(self, score, i):
+	
+sample = Leaderboard()
+sample.print_board()

@@ -15,3 +15,8 @@ class Death(object):
 	def enter(self):
 		print (Death.quips[randint(0, len(self.quips)- 1)])
 		return 'died'
+    
+def test_death():
+    test_death = Death()
+
+test_death()

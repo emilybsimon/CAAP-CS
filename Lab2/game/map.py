@@ -7,10 +7,11 @@ from death import Death
 class Map(object):
 	scenes = {'central_corridor' : S.CentralCorridor(),
 				'laser_weapon_armory' : S.LaserWeaponArmory(),
-				'the_bridge' : S.TheBridge(),
-				'escape_pod' : S.EscapePod(),
+			  	'the_temple' : S.Temple(),
+			  	'the_spaceship' : S.SpaceShip(),
+			  	'the_lab' : S.Lab(),
+			  	'the_exit' : S.Exit(),
 				'death' : Death()
-				# raise ValueError ('todo')
 				}
 	
 	# initializes to a starting scene
