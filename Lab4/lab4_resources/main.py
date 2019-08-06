@@ -10,7 +10,7 @@ import turtle
 turtle.screensize(200, 200, bg="#FFFFFF")
 myPen = turtle.Turtle()
 myPen.color("#000000")
-myPen.speed(10)
+myPen.speed(100)
 # If you would like to slow down the animation, uncomment the next line. Higher delay, the slower it will be
 #turtle.delay(100)
 
